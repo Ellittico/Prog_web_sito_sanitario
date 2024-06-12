@@ -57,7 +57,6 @@ h1{
 }
 @media screen and (min-width: 700px) {
     header{
-        height: 170px;
         grid-template-columns: auto auto;
         justify-content: space-around;
         align-content: space-around;

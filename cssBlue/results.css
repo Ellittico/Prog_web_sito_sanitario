@@ -169,7 +169,6 @@
     background-color: #98dbff;
 }
 .records-ricovero-modify{
-    /**ricorda di modificare il border-radius del padre e il margine-botton*/
     padding:10px;
     border-radius: 0px 0px 15px 15px;
     margin-bottom:5px;
