@@ -1,0 +1,9 @@
+footer {
+    font-family: "Outfit", sans-serif;;
+    background-color:  #2587fe;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding: 5px 0;
+    margin-top: auto;
+}

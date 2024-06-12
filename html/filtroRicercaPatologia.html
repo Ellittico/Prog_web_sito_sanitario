@@ -1,0 +1,21 @@
+
+<div class="search-container">
+    <form action="patologia.php" method="post" id="form-filter">
+        <p class="title-search-container"> Filtra  </p>
+        <input type="text" placeholder="Cerca per Nome" name="nome">
+        <hr>
+        <div id="container-radio">
+            <label for="scelta" id="label-radio-general"> Scegli tra:</label>
+            <input type="radio" id="cronica" name="opt" value="opzione1">
+            <label for="cronica" class="label-radio">Cronica</label><br>
+            <input type="radio" id="mortale" name="opt" value="opzione2">
+            <label for="mortale" class="label-radio">Mortale</label><br>
+            <input type="radio" id="qualsiasi" name="opt" value="opzione3">
+            <label for="qualsiasi" class="label-radio">Qualsiasi</label><br>
+        </div>
+        <hr>
+        <label id="gravity-label" for="gravita" > Indica la gravità da 1 a 10</label>
+        <input type="number" name="gravita" id="gravity" min="1" max="10">
+        <input type="submit" value="Cerca">
+    </form>
+</div>

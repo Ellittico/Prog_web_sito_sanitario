@@ -1,0 +1,160 @@
+.title-search-container{
+    font-weight: bolder;
+    margin: 10px 20px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+#date-birth{
+    margin-left: 40px;
+    width: 120px;
+}
+#container-radio{
+    margin-top: 10px;
+}
+
+.search-container {
+    width: 230px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color:#8c9c55;
+    color: #ebf1d7;
+    height: auto;
+}
+
+::placeholder {
+    color: #1f373d;
+    font-family: "Outfit", sans-serif;
+}
+
+hr{
+    width: 90%;
+    border-color: #952727;
+}
+
+.search-container input[type=text],
+.search-container input[type=date],
+.search-container input[type=number] {
+    width: 210px;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: aliceblue;
+    font-family: "Outfit", sans-serif;
+    border:none;
+    border-bottom: 2px solid #792222;
+    color: #1f373d;
+    outline: none;
+    border-radius: 5px;
+}
+.search-container input[type=date] {
+    font-family: "Outfit", sans-serif;
+    display: inline-block;
+    width:106px;
+    margin-top:5px;
+    outline:none;
+    background-color: white;
+    border-radius:5px;
+    border:1px solid #792222;
+    font-size:13px;
+    padding:2px;
+    color:#1f373d;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.search-container input[type=number]{
+    width:40px;
+    height: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.search-container input[type=text]::after {
+    border-bottom: 2px solid #ff0000
+}
+
+.search-container input[type=submit] {
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    background-color: #7d2525;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.search-container input[type=submit]:hover {
+    background-color:  #b32828;
+    color: white;
+}
+
+.search-container input[type=radio] {
+    margin-left: 35px;
+    accent-color: #b32828;
+}
+.search-container input[type=radio]::before {
+    background-color: #b32828 !important;
+}
+
+.content {
+    margin-left: 200px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+#gravity {
+    margin-left: 80px;
+    color: #1f373d;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+
+#gravity-label {
+    font-family: "Outfit", sans-serif;
+    margin-left: 15px;
+    color: #ebf1d7;
+}
+
+.label-data {
+    margin: 0 35px 0 50px;
+    font-family: "Outfit", sans-serif;
+}
+
+.label-number {
+    margin: 0 20px 0 50px;
+    font-family: "Outfit", sans-serif;
+}
+
+#label-radio-general {
+    margin: 0 120px 0 20px;
+    font-family: "Outfit", sans-serif;
+}
+
+.label-radio {
+    font-family: "Outfit", sans-serif;
+    color: #ebf1d7;
+    margin-left: 4px;
+}
+
+span {
+    font-family: "Outfit", sans-serif;
+    display: inline;
+}
+
+.filter-span {
+    margin-left: 25px;
+}
+
+
+/*
+Colori oliva
+$olive-dark: #556B2F;
+$olive-medium: #6B8E23;
+$olive-light: #8FBC8F;
+$olive-accent: #9ACD32;
+$olive-text: #2E8B57;
+$olive-bg: #556B2F1a;
+$olive-border: #6B8E231a;
+$olive-hover: #556B2f3a;
+*/

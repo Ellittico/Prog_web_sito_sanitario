@@ -1,0 +1,87 @@
+/* ordering-filters*/
+.master{
+    min-height: calc(100vh - 50px);
+    font-family: "Outfit", sans-serif;
+    color:#002654;
+}
+.sort-bar {
+    display: inline;
+    margin-left: 50px;
+    margin-top: 5px;
+    outline: none,
+}
+.sort-bar label {
+    margin-right: 10px;
+}
+.sort-bar select {
+    padding: 5px;
+    border-radius: 5px;
+    color:#002654;
+    font-family: "Outfit", sans-serif;
+    outline: none;
+    outline: none;
+    box-shadow: 0px 0px 6px 1px #0026547c;
+    border: none;
+}
+.sort-bar option:hover {
+    box-shadow: 0 0 10px 100px #178dcc inset;
+}
+.sort-bar option:checked{
+    background-color: #178dcc ;
+    color: aliceblue ;
+    box-shadow: 0px 0px 6px 1px #178dcc6b;
+    border: none;
+}
+.sort-bar-option:checked{
+    background-color: #178dcc ;
+    color: aliceblue ;
+}
+.ordering{
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 0px 2px 5px #178dcc6b ;
+    padding:5px;
+    padding-bottom:7px;
+    padding-top: 7px;
+    justify-content: space-between;
+    align-items: center;
+} 
+#ordering-submit{
+    display: inline;
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #178dcc;
+    background-color: #178dcc;
+    color: aliceblue;
+    font-weight: bold;
+    transition: 0.3s;
+}
+#ordering-submit:hover{
+    border: 1px solid aliceblue;
+    background-color:  aliceblue;
+    color: #178dcc;
+}
+.theme{
+    margin-right:20px;
+    margin-top: -5px;
+}
+.theme-text, .light-blue, .olive{
+    display: inline-block;
+}
+.light-blue, .olive{
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}
+.light-blue{
+    border: 1px solid #002654;
+    background-color: #178dcc;
+}
+
+.olive{
+    border: 1px solid  #6d6d24 ;
+    background-color:#3f5f29 ;
+}

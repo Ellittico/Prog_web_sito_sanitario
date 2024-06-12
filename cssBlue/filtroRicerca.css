@@ -1,0 +1,150 @@
+/*containers */
+.title-search-container{
+    font-weight: bolder;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+#date-birth{
+    margin-left: 50px;
+}
+ #container-radio{
+    margin-top:10px;
+    margin-top:10px;
+ }
+.search-container {
+    width: 230px;
+    padding: 10px;
+    padding-top: 20px;
+    background-color:#7bc5ed;
+    height: auto;
+}
+::placeholder{
+    color: #002654;
+    font-family: "Outfit", sans-serif;;
+}
+
+hr{
+    width: 90%;
+    border-color: #67acff;
+}
+
+/*inputs */
+.search-container input[type=text] {
+    width: 210px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: aliceblue;
+    font-family: "Outfit", sans-serif;
+    border:none;
+    border-bottom: 2px solid #2587fe;
+    color: #002654;
+    outline:none;
+    border-radius: 5px;
+}
+.search-container input[type=text]:hover {
+    border-bottom: 2px solid #72aef8;
+}
+.search-container input[type=submit] {
+    font-family: "Outfit", sans-serif;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border: none;
+    background-color: #2587fe;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+.search-container input[type=date] {
+    font-family: "Outfit", sans-serif;
+    display: inline-block;
+    height: 15px;
+    width:106px;
+    margin-top:5px;
+    outline:none;
+    background-color: aliceblue;
+    border-radius:5px;
+    border:1px solid #2587fe;
+    font-size:13px;
+    padding:2px;
+    color:#002654;
+    margin-top:10px;
+    margin-bottom:15px;
+}
+.search-container input[type=submit]:hover {
+    background-color:  aliceblue;
+    color:#2587fe;
+}
+.search-container input[type=radio]{
+    margin-left: 35px;
+    color:#002654;
+}
+.search-container input[type=number]{
+    margin-top:10px;
+    outline:none;
+    margin-left:10px;
+    margin-right:10px;
+    margin-bottom:7px;
+    border:none;
+    border-bottom:2px solid #2587fe;
+    width:50px;
+    font-family: "Outfit", sans-serif;
+}
+.search-container input[type=number]:hover{
+    border-bottom: 2px solid hsl(213, 91%, 71%);
+}
+.content {
+    margin-left: 200px; 
+    padding: 20px;
+    margin-top: 50px; 
+}
+#gravity{
+    margin-left: 80px;
+    color:#002654;
+    font-family: "Outfit", sans-serif;
+    text-align: center;
+}
+#gravity-label{
+    font-family: "Outfit", sans-serif;
+    margin-left: 15px;
+    color:#002654;
+}
+
+
+/*labels */
+.label-data{
+    margin-left:50px;
+    margin-right:5px;
+    font-family: "Outfit", sans-serif;
+}
+.label-number{
+    margin-left:50px;
+    margin-right:20px;
+    font-family: "Outfit", sans-serif;
+}
+#label-radio-general{
+    font-family: "Outfit", sans-serif;
+    margin-left:20px;
+    margin-right:120px;
+    color:#002654;
+}
+.label-radio{
+    font-family: "Outfit", sans-serif;
+    color:#002654;
+    margin-left:4px;
+}
+
+/*spans */
+span {
+    font-family: "Outfit", sans-serif;
+    display: inline;
+}
+.filter-span{
+    margin-left: 25px; 
+}

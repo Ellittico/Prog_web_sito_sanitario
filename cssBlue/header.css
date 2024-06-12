@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+header{
+    background-image: url("../imgBlue/headerBackground.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px !important;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 2px 0px 4px #034264 inset;
+}
+body{
+    margin:0px !important;
+}
+h1{
+    text-shadow: 2px 0px 4px #034264;
+    color:aliceblue;
+    margin-left:50px;
+    font-size: 28px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#first,#second {
+    width:200px;
+    position: relative; /* Posizione assoluta rispetto all'elemento padre */
+    top: 30px; /* Posiziona il titolo al centro verticalmente */
+    transform: translateY(-50%); /* Sposta il titolo di metà della sua altezza per centrarlo perfettamente */
+    background-color: rgba(0, 38, 84, 0.7); /* Sfondo semitrasparente */
+    padding: 10px; /* Aggiunge spazio intorno al titolo */
+    color: white; /* Colore del titolo */
+    font-weight: bold; /* Titolo in grassetto per evidenziarlo */
+    font-size: 28px; /* Dimensione del titolo */
+    font-family: "Outfit", sans-serif; /* Famiglia di caratteri */
+    text-shadow: 2px 0px 4px #034264; /* Ombra del testo */
+}
+
+#MakeAnAppointment{
+    height: 50px;
+    width: 300px;
+    margin-top: 35px;
+    border-radius:10px;
+    background-color: #178dcc;
+    font-family: "Outfit", sans-serif;;
+    padding:10px;
+    border:none;
+    font-size:20px;
+    transition: 0.5s;
+}
+#MakeAnAppointment:hover{
+    background-color: aliceblue;
+    
+}
+@media screen and (min-width: 700px) {
+    header{
+        height: 170px;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+}
+.header-link, .header-link:visited{
+    color:aliceblue;
+    text-decoration: none;
+}
+.header-link:hover, .header-link:visited:hover{
+    color:  #178dcc;
+}

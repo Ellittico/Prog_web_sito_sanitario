@@ -1,0 +1,89 @@
+.adding-crud{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adding-text{
+    display: inline-block;
+    font-family: "Outfit", sans-serif;;
+}
+.adding-btn{
+    margin-left:20px;
+    font-family: "Outfit", sans-serif;;
+    border-radius: 100%;
+    height: 30px;
+    background-color: #2587fe;
+    margin: 5px;
+    border: 1px solid #2587fe;
+    width: 30px;
+    align-content: center;
+    font-weight: 750;
+    font-size: large;
+    color: aliceblue;
+    transition: 0.3s;
+}
+.adding-btn:hover{
+    background-color: #72aef8;
+    border: 1px solid #72aef8 ;
+    
+}
+
+.adder-ricovero{
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    padding:10px;
+    border-radius: 15px;
+    margin-bottom:5px;
+    background-color: #7bc5ed;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap:5px;
+    transition: 0.3s;
+}
+.adder-ricovero input{
+    height: 20px;
+    width: 80%;
+    min-width: 110px;
+    padding: 10px;
+    margin: 5px 5px;
+    border: none;
+    background-color: aliceblue;
+    font-family: "Outfit", sans-serif;
+    border:none;
+    border-bottom: 2px solid #2587fe;
+    color: #002654;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.adder-ricovero input:hover{
+    background-color:  white;
+    border-bottom: 2px solid #72aef8;
+}
+.deleter{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid #2587fe;
+    background-color: #2587fe;
+    color: white;
+    font-weight: 800;
+    transition: 0.3s;
+}
+.deleter:hover{
+    border: 1px solid #72aef8;
+    background-color: #72aef8;
+}
+.formNewRecord{
+    align-items: center;
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) 40px;
+}

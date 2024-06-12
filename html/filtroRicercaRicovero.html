@@ -1,0 +1,25 @@
+<div class="search-container">
+    <form action="ricovero.php" method="post" id="form-filter">
+        <p class="title-search-container"> Filtra  </p>
+        <label class="label-data" for="data"> data di ricovero: </label>
+        <input type="date" name="data_inizio">
+        <input type="date" name="data_fine">
+        <hr>
+        <label class="label-data" for="durata"> giorno di ricovero: </label>
+        <span class="filter-span">
+            <span>da</span>
+            <input type="number" name="gg_inizio">
+            <span>a</span>
+            <input type="number" name="gg_fine">
+        </span>
+        <hr>
+        <label class="label-number" for="costo"> costo di ricovero: </label>
+        <span class="filter-span">
+            <span>da</span>
+            <input type="number" name="costo_inizio">
+            <span>a</span>
+            <input type="number" name="costo_fine">
+        </span>
+        <input type="submit" placeholder="Cerca per Data di nascita" value="Cerca">
+    </form>
+</div>

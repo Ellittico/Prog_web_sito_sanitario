@@ -1,0 +1,90 @@
+.dashboard{
+    padding: 30px;
+    text-align: center;
+}
+#dash-title{
+    font-size: xx-large;
+    font-weight: 900;
+    font-family: "Outfit", sans-serif;
+    color:#1f373d;
+    text-decoration: underline;
+}
+.dash-text{
+    font-family: "Outfit", sans-serif;
+    color:#1f373d;
+}
+#dash-img{
+    height: 200px;
+    width: 200px;
+}
+.dash-button-container{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 250px 250px;
+    margin: 30px auto; 
+    max-width: 600px; 
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.dash-item{
+    box-shadow: 0px 0px 10px #4252aa88;
+    border-radius: 15px;
+    position: relative;
+    width: 250px ;
+    height: 250px;
+}
+.dash-img{ 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 220px;
+    height: 220px;
+}
+.text-item{
+   z-index: 2;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   background-color: #952727de;
+   padding: 10px;
+   color: white;
+   font-weight: bold;
+   font-size: 18px;
+   font-family: "Outfit", sans-serif;
+   transition: 0.3s;
+}
+
+.text-item:hover{
+    transform-origin: 50%;
+    font-size: 25px;
+    background-color: #db444498; 
+}
+
+.theme{
+    margin-right:20px;
+    margin-top: -5px;
+}
+.theme-text, .light-blue, .olive{
+    display: inline-block;
+    font-family: "Outfit", sans-serif;
+    color:#1f373d;
+}
+.light-blue, .olive{
+    border-radius: 4px;
+    margin-top: 3px;
+    margin-left: 5px;
+    height: 20px;
+    width: 20px;
+}
+.light-blue{
+    border: 1px solid #002654;
+    background-color: #178dcc;
+}
+
+.olive{
+    border: 1px solid  #6d6d24 ;
+    background-color:#3f5f29 ;
+}

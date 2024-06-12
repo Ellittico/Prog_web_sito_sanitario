@@ -1,0 +1,88 @@
+.adding-crud{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.adding-text{
+    display: inline-block;
+    font-family: "Outfit", sans-serif;;
+}
+.adding-btn{
+    margin-left:20px;
+    font-family: "Outfit", sans-serif;;
+    border-radius: 100%;
+    height: 30px;
+    background-color: green;
+    margin: 5px;
+    border: 1px solid green;
+    width: 30px;
+    align-content: center;
+    font-weight: 750;
+    font-size: large;
+    color: aliceblue;
+    transition: 0.3s;
+}
+.adding-btn:hover{
+    background-color: #47cb47;
+    border: 1px solid #47cb47 ;   
+}
+
+.adder-ricovero{
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 20px;
+    padding:10px;
+    border-radius: 15px;
+    margin-bottom:5px;
+    background-color: #8c9c55;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: 40px auto;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    grid-gap:5px;
+    transition: 0.3s;
+}
+.adder-ricovero input{
+    height: 20px;
+    width: 80%;
+    min-width: 110px;
+    padding: 10px;
+    margin: 5px 5px;
+    border: none;
+    background-color: white;
+    font-family: "Outfit", sans-serif;
+    border:none;
+    border-bottom: 2px solid #792222;
+    color: #1f373d;
+    outline: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.adder-ricovero input:hover{
+    background-color:  white;
+    border-bottom: 2px solid #b32828;
+}
+.deleter{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    border: 1px solid #792222;
+    background-color: #792222;
+    color: white;
+    font-weight: 800;
+    transition: 0.3s;
+}
+.deleter:hover{
+    border: 1px solid #b32828;
+    background-color: #b32828;
+}
+.formNewRecord{
+    align-items: center;
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) 40px;
+}

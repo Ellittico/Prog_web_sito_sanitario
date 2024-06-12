@@ -1,0 +1,252 @@
+.results{
+    padding:20px;
+    padding-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.displayer-results{
+    width: 100%;
+}
+/*Cittadini*/
+.titles-results-cittadini{
+    width: 100%;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns:minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr);
+    align-content: center;
+    grid-gap:1px;
+    justify-content: normal;
+}
+.titles-elements-cittadini{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4fbcf6;
+    width: 100%;
+    color: aliceblue !important;
+}
+.records-cittadini{
+    padding:10px;
+    border-radius: 15px;
+    margin-bottom:5px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns:minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr);
+    align-content: center;
+    justify-content: normal;
+}
+/*Ospedale*/
+.titles-results-ospedale{
+    width: 100%;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr);
+    align-content: center;
+    grid-gap:1px;
+    justify-content: normal;
+}
+.titles-elements-ospedale{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4fbcf6;
+    width: 100%;
+    color: aliceblue !important;
+}
+.records-ospedale{
+    padding:10px;
+    border-radius: 15px;
+    margin-bottom:5px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr);
+    align-content: center;
+    justify-content: normal;
+}
+/*Patologia*/
+.titles-results-patologia{
+    width: 100%;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr);
+    align-content: center;
+    grid-gap:1px;
+    justify-content: normal;
+}
+.titles-elements-patologia{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4fbcf6;
+    width: 100%;
+    color: aliceblue !important;
+}
+.records-patologia{
+    padding:10px;
+    border-radius: 15px;
+    margin-bottom:5px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr);
+    align-content: center;
+    justify-content: normal;
+}
+/*Ricovero*/
+.icon-modifica{
+    height: 20px;
+    width:20px;
+}
+.titles-results-ricovero{
+    width: 100%;
+    margin-bottom: 5px;
+    display: grid;
+    grid-template-columns:  40px minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) 40px;
+    align-content: center;
+    grid-gap:1px;
+    justify-content: normal;
+}
+.titles-elements-ricovero{
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    background-color: #4fbcf6;
+    width: 100%;
+    color: aliceblue !important;
+}
+#delete{
+    font-weight: 800;
+
+}
+.records-ricovero{
+    padding:10px;
+    border-radius: 15px;
+    margin-bottom:5px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: 40px  minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) 40px;
+    align-content: center;
+    justify-content: normal;
+    align-items: center;
+}
+.delete-record, .delete-title{
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: #2587fe;
+    color: aliceblue;
+    border: 1px solid #2587fe;
+    font-weight: 700;
+    transition: 0.3s;
+}
+.delete-record:hover{
+    background-color: #4fbcf6;
+    border: 1px solid #4fbcf6;
+}
+/**/
+.modify{
+    border-radius:100%;
+    height:35px;
+    width:35px;
+    border:1px solid white;
+    background-color: white;
+    background-image: url("../imgBlue/icon-modifica.png");
+    background-size: cover;
+    transition:0.3s
+}
+.modify:hover{
+    background-color: #98dbff;
+}
+.records-ricovero-modify{
+    /**ricorda di modificare il border-radius del padre e il margine-botton*/
+    padding:10px;
+    border-radius: 0px 0px 15px 15px;
+    margin-bottom:5px;
+    background-color: aliceblue;
+    text-align: center;
+    padding-left:10px;
+    display: grid;
+    grid-template-columns: 40px  minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) minmax(30px,1fr) 40px;
+    align-content: center;
+    justify-content: normal;
+    align-items: center;
+}
+.records-ricovero-modify input[type=text]{
+    height: 30px;
+    min-width: 100px;
+    width:70%;
+    margin: auto;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    border-bottom: 2px solid #4fbcf6;
+    transition: 0.3s;
+    color:#002654;
+    font-family: "Outfit", sans-serif;
+    padding-left:5px;
+}
+.records-ricovero-modify input[type=text]:hover{
+    border-bottom: 2px solid #98dbff;
+}
+::placeholder{
+    color:#002654;
+    font-family: "Outfit", sans-serif;
+}
+.records-ricovero-modify input[type=date]{
+    min-width: 100px;
+    width:70%;
+    margin: auto;
+    height: 30px;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    border-bottom: 2px solid #4fbcf6;
+    color:#002654;
+    font-family: "Outfit", sans-serif;
+}
+.records-ricovero-modify input[type=number]{
+    min-width: 100px;
+    width:70%;
+    margin: auto;
+    height: 30px;
+    border-radius:10px;
+    outline:none;
+    border:none;
+    border-bottom: 2px solid #4fbcf6;
+    color:#002654;
+    font-family: "Outfit", sans-serif;
+    padding-left:5px;
+}
+.submit-data{
+    border-radius:100%;
+    height:35px;
+    width:35px;
+    border:1px solid white;
+    background-color: aliceblue;
+    background-image: url("../imgBlue/icon-submit.png");
+    background-size: cover;
+    padding: 6px;
+    transition:0.3s
+}
+.submit-data:hover{
+    background-color: #3425fe;
+}
+
+/* No results */
+.noResult{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}

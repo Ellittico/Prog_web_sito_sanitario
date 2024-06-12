@@ -1,0 +1,29 @@
+.divider{
+    display: grid !important;
+    grid-template-columns: 250px auto !important;
+    grid-template-rows: auto !important;
+}
+
+.aside-menu{
+    position:static;
+    float: left;
+    background-color: #9fd5f2;
+    height: 100%;
+    display: block;
+    display: grid !important;
+    grid-template-rows: 300px auto !important;
+}
+.sticky{
+    position:fixed;
+    top:0px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+.container{
+    padding:20px;
+}

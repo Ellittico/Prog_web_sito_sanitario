@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+header{
+    background-image: url("../img/headerBackground.jpg");
+    background-color: rgb(109, 109, 36);
+    background-size: cover;
+    background-position: center;
+    margin: 0px !important;
+    display: grid;
+    grid-template-columns: auto auto;
+    box-shadow: 2px 0px 4px #95272798 inset;
+}
+body{
+    margin:0px !important;
+}
+h1{
+    text-shadow: 2px 0px 4px #95272798;
+    color:aliceblue;
+    margin-left:50px;
+    font-size: 28px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+}
+
+#first,#second {
+    width:200px;
+    position: relative;
+    top: 30px; 
+    transform: translateY(-50%); 
+    background-color: #95272798; 
+    padding: 10px; 
+    color: white;
+    font-weight: bold; 
+    font-size: 28px; 
+    font-family: "Outfit", sans-serif; 
+    text-shadow: 2px 0px 4px #95272798; 
+
+}
+
+#MakeAnAppointment{
+    height: 50px;
+    width: 300px;
+    margin-top: 35px;
+    border-radius:10px;
+    background-color: #9d3f3f;
+    font-family: "Outfit", sans-serif;;
+    padding:10px;
+    border:none;
+    font-size:20px;
+    transition: 0.5s;
+}
+#MakeAnAppointment:hover{
+    background-color: aliceblue;
+    
+}
+@media screen and (min-width: 700px) {
+    header{
+        height: 170px;
+        grid-template-columns: auto auto;
+        justify-content: space-around;
+        align-content: space-around;
+    }
+}
+.header-link, .header-link:visited{
+    color:aliceblue;
+    text-decoration: none;
+}
+.header-link:hover, .header-link:visited:hover{
+    color:  #b32828;
+}
