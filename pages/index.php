@@ -56,3 +56,4 @@ session_start();
     </script>
 
 </body>
+<script src="../js/scrollPosition.js"></script>

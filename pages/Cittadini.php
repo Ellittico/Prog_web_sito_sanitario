@@ -27,3 +27,4 @@ session_start();
     </div>
     <?php include"../html/footer.html" ?>
 </body>
+<script src="../js/scrollPosition.js"></script>

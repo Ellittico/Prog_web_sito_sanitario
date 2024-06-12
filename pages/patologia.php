@@ -10,13 +10,7 @@ session_start();
 
 
 <body>
-    <?php
-      /*debug
-        echo "<pre>";
-        print_r($_SESSION); 
-        echo "</pre>";
-    debug*/
-     include"../html/header.html" ?>
+    <?php include"../html/header.html" ?>
     <div class="divider">
         <aside class="aside-menu">
             <?php include"../html/navbar.html" ?>
@@ -32,3 +26,4 @@ session_start();
     </div>
     <?php include"../html/footer.html" ?>
 </body>
+<script src="../js/scrollPosition.js"></script>

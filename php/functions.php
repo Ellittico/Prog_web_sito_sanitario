@@ -3,9 +3,9 @@
 function connectDb() {
 
     $servername = "localhost";
-    $username = "mntw";
-    $password = "7v76NGFQ7qDr";
-    $dbname = "my_mntw";
+    $username = "codexflashh";
+    $password = "XbYCUxrAtKs7";
+    $dbname = "my_codexflashh";
 
 
     $conn = new mysqli($servername, $username, $password, $dbname);
